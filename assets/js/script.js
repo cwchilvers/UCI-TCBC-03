@@ -27,6 +27,13 @@ function generatePassword() {
   if (confirm("Use special characters?") == true) {
     passwordArray = passwordArray.concat(special);
   } 
+
+  while (i <= length) {
+    password = password.concat(letters[Math.floor(Math.random()*letters.length)]);
+    i++;
+  }
+
+  return password;
 }
 
 // Get references to the #generate element

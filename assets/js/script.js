@@ -29,7 +29,7 @@ function generatePassword() {
   } 
 
   while (i <= length) {
-    password = password.concat(letters[Math.floor(Math.random()*letters.length)]);
+    password = password.concat(passwordArray[Math.floor(Math.random()*passwordArray.length)]);
     i++;
   }
 

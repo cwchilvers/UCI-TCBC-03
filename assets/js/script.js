@@ -5,11 +5,14 @@ function generatePassword() {
   var number;
   var symbol;
   var i = 1;
-  
+  var password = "";
   let letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   let numbers = ["0","1","2","3","4","5","6","7","8","9"];
   let symbols = ["~","\`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]","|",":",";","<",">","?",".","\\", "\""];
   var passwordArray = [];
+
+  length = prompt("Enter Password Length (8-128 Characters):");
+
 }
 
 // Get references to the #generate element

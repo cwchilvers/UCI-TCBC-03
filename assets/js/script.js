@@ -3,7 +3,6 @@ function generatePassword() {
   let password = "";
   let passwordArray = [];
   let i = 1;
-  let length = 0;
   let validInput = false;
   const lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   const uppercase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -18,22 +17,28 @@ function generatePassword() {
     }
   }
 
-  // Ask user for lowercase characters
-  if (confirm("Use lowercase characters?") == true) {
-    passwordArray = passwordArray.concat(lowercase);
-  } 
-  // Ask user for uppercase characters
-  if (confirm("Use uppercase characters?") == true) {
-    passwordArray = passwordArray.concat(uppercase);
-  } 
-  // Ask user for numbers
-  if (confirm("Use numbers?") == true) {
-    passwordArray = passwordArray.concat(numbers);
-  } 
-  // Ask user for special characters
-  if (confirm("Use special characters?") == true) {
-    passwordArray = passwordArray.concat(special);
-  } 
+  while (passwordArray.length === 0) {
+    // Ask user for lowercase characters
+    if (confirm("Use lowercase characters?") == true) {
+      passwordArray = passwordArray.concat(lowercase);
+    } 
+    // Ask user for uppercase characters
+    if (confirm("Use uppercase characters?") == true) {
+      passwordArray = passwordArray.concat(uppercase);
+    } 
+    // Ask user for numbers
+    if (confirm("Use numbers?") == true) {
+      passwordArray = passwordArray.concat(numbers);
+    } 
+    // Ask user for special characters
+    if (confirm("Use special characters?") == true) {
+      passwordArray = passwordArray.concat(special);
+    } 
+    // If user selects nothing
+    if (passwordArray.length === 0) {
+      alert("Please select at least one character type.");
+    }
+  }
 
   // Create password
   while (i <= length) {
@@ -53,7 +58,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button

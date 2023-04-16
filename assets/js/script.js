@@ -41,9 +41,8 @@ function generatePassword() {
   }
 
   // Create password
-  while (i <= length) {
+  for (i = 1; i <= length; i++) {
     password = password.concat(passwordArray[Math.floor(Math.random()*passwordArray.length)]);
-    i++;
   }
 
   return password;

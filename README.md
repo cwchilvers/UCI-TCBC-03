@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
 </p>
 
-<h4 align="center">A simple simple random password generator.</h4>
+<h4 align="center">A simple random password generator.</h4>
 
 ## Table of Contents
 1. [Description](#description)

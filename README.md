@@ -12,18 +12,20 @@
 1. [Description](#description)
 2. [Usage](#usage)
 3. [Technologies Used](#technologies-used)
-4. [Contact Information](#contact-information)
+4. [Credits](#credits)
+5. [Contact Information](#contact-information)
 
 ## Description
 This is a simple random password generator that allows the user to select the length of the password and which character types to include. The user can choose to include lowercase letters, uppercase letters, numbers, and/or special characters. The password is generated randomly and displayed on the page.
-
-[Original Starter Code](https://github.com/coding-boot-camp/friendly-parakeet.git)
 
 ## Usage
 To use this web application, either access the web app [here](https://example.com) or clone the repository locally and open the `index.html` file in your browser. To generate a password, click the "Generate Password" button. You will be prompted to enter a password length between 8 and 128 characters. After entering a valid password length, you will be prompted to select which character types to include in the password. You must select at least one character type. After selecting the character types, a password will be generated and displayed on the page. If you would like to generate another password, click the "Generate Password" button again.
 
 ## Technologies Used
-- JavaScript
+* JavaScript
+
+## Credits
+* [Original Starter Code](https://github.com/coding-boot-camp/friendly-parakeet.git)
 
 ## Contact Information
 <p align="center">

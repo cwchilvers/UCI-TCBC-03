@@ -19,7 +19,7 @@
 This is a simple random password generator that allows the user to select the length of the password and which character types to include. The user can choose to include lowercase letters, uppercase letters, numbers, and/or special characters. The password is generated randomly and displayed on the page.
 
 ## Usage
-To use this web application, either access the web app [here](https://example.com) or clone the repository locally and open the `index.html` file in your browser. To generate a password, click the "Generate Password" button. You will be prompted to enter a password length between 8 and 128 characters. After entering a valid password length, you will be prompted to select which character types to include in the password. You must select at least one character type. After selecting the character types, a password will be generated and displayed on the page. If you would like to generate another password, click the "Generate Password" button again.
+Clone the repository locally and open the `index.html` file in your browser. To generate a password, click the "Generate Password" button. You will be prompted to enter a password length between 8 and 128 characters. After entering a valid password length, you will be prompted to select which character types to include in the password. You must select at least one character type. After selecting the character types, a password will be generated and displayed on the page. If you would like to generate another password, click the "Generate Password" button again.
 
 ## Technologies Used
 * JavaScript

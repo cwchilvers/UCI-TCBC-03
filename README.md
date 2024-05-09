@@ -12,8 +12,8 @@
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
+4. [Usage](#usage)
+5. [Installation](#installation)
 6. [Contact Information](#contact-information)
 
 ## Description

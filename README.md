@@ -23,7 +23,7 @@ This is a simple random password generator that allows the user to select the le
 * JavaScript
 
 ## Usage
-The deployed version can be accessed at [uci-tcbc-03.cwchilvers.io](https://uci-tcbc-03.cwchilvers.io).
+The deployed version can be accessed [here](https://uci-tcbc-03.cwchilvers.io).
 
 To generate a password, click the "Generate Password" button. You will be prompted to enter a password length between 8 and 128 characters. After entering a valid password length, you will be prompted to select which character types to include in the password. You must select at least one character type. After selecting the character types, a password will be generated and displayed on the page. If you would like to generate another password, click the "Generate Password" button again.
 
